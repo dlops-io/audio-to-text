@@ -25,7 +25,7 @@ const recorder = new MicRecorder({
     bitRate: 128
 });
 
-const Home = (props) => {
+const Test = (props) => {
     const { classes } = props;
 
     console.log("================================== Home ======================================");
@@ -145,4 +145,4 @@ const Home = (props) => {
     );
 };
 
-export default withStyles(styles)(Home);
+export default withStyles(styles)(Test);
