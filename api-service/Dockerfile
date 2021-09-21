@@ -1,7 +1,7 @@
 # Use the official Debian-hosted Python image
 FROM python:3.8-slim-buster
 
-ARG DEBIAN_PACKAGES="build-essential git procps"
+ARG DEBIAN_PACKAGES="build-essential git procps ffmpeg"
 
 # Prevent apt from showing prompts
 ENV DEBIAN_FRONTEND=noninteractive

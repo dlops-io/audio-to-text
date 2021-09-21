@@ -13,6 +13,9 @@ fastapi = "*"
 aiofiles = "*"
 pynvml = "*"
 psutil = "*"
+python-multipart = "*"
+google-cloud-speech = "*"
+ffmpeg-python = "*"
 
 [requires]
 python_version = "3.8"
